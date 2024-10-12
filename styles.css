@@ -1,0 +1,191 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #242527;
+    color: white;
+}
+
+/* Container and Header */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1A1B1D;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 35px; /* Make logo smaller */
+}
+
+.middle-area {
+    flex-grow: 1; /* Take available space in the middle */
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up button {
+    background-color: #00B06D;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px; /* Space between button and image */
+}
+
+.sign-up button:hover {
+    background-color: #218838;
+}
+
+.left-image {
+    width: 40px; /* Make left image smaller */
+}
+
+/* Navigation */
+.nav {
+    background-color: #1A1B1D;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0; /* Add padding to nav */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: #a3a3a3;
+}
+
+/* Login Section */
+.login-section {
+    background-color: #3A3B3D;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Bigger size for "Login to Roblox" */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #111312;
+    border: 1px solid #3E3F40;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+    opacity: 0.8; /* Semi-transparent text */
+}
+
+.login-form input::placeholder {
+    color: #a3a3a3;
+}
+
+.spacer {
+    height: 10px; /* Space between elements */
+}
+
+.login-form button {
+    width: 100%;
+    padding: 5.5px;
+    background-color: #3A3B3D;
+    color: white;
+    border: 0.5px solid #FEFEFE;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.login-form a {
+    color: #FEFEFE;
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold; /* Bold for "Forgot Password or Username?" */
+}
+
+.spacer2 {
+    height: 4px; /* Space between elements */
+}
+
+hr.small-line {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+hr.small-line2 {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+.spacer5 {
+    height: 7px; /* Space between elements */
+}
+
+.spacer8 {
+    height: 25px; /* Space between elements */
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping to new lines */
+}
+
+.footer-link {
+    margin: 0 10px; /* Space between links */
+}
+
+.footer-link a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    color: #0d6efd;
+}
+.privacy-choice {
+    margin-top: 10px;
+    margin-bottom: 20px; /* Space below "Your Privacy Choices" */
+}
+
+.privacy-choice input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
